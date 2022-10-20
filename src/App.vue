@@ -1,9 +1,7 @@
 <template>
-<div>
   <div class="principal">
-     <mapa_coordenadas/>
+    <mapa_coordenadas />
   </div>
-</div>
 </template>
 
 <script>
@@ -17,8 +15,6 @@ export default {
   },
   components: {
     mapa_coordenadas
-  },
-  methods:{
   }
 }
 </script>

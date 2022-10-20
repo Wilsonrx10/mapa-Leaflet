@@ -9,23 +9,13 @@
 .principal {
     width: 100%;
     height: 100vh;
-    display: flex;
     background-color: #ddd;
 }
-.coordenadas {
-    width: 30%;
-    height: 100%;
-    background-color: rgb(252, 252, 252);
-}
 
-.mapa {
-    width: 70%;
-    height: 100%;
-    background-color: rgb(61, 61, 61);
-}
+/*=====================================
+MODAL 
+======================================*/
 
-
-/* Modal */
 .modal {
     display: flex;
     justify-content: center;
@@ -42,8 +32,9 @@
 .modal .formulario {
     background-color: white;
     width: 400px;
-    height: 250px;
+    height: 270px;
     padding: 40px;
+    border-radius: 4px;
 }
 .formulario input {
     width: 100%;
@@ -52,12 +43,19 @@
     border:1px solid #ddd;
     outline: 0;
 }
+
+.modal .formulario .buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
 .modal .formulario button {
+    margin: 5px;
     width: 100%;
     padding: 8px;
     color: white;
     background-color: rgba(46, 144, 255, 0.774);
-    border:1px solid rgba(46, 144, 255, 0.774);
+    border:none;
 }
 .modal .formulario h1 {
     margin-bottom: 25px;
