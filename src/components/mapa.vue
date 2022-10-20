@@ -56,7 +56,6 @@ export default {
         zoomSnap: 0.5
       },
       showMap: true,
-      data:this.DataAtual(),
       markers: null,
       lista:[],
       EstadoModal:false,
@@ -104,8 +103,11 @@ export default {
           this.getLocalstorage();
         }
       }
-
+      
       this.EstadoModal = false;
+      // Esvaziando as variaveis do mapa 
+      this.titulo = null;
+      this.descricao = null;
     },
 
     DataAtual() {
